@@ -7,5 +7,5 @@ public abstract class PlayingPiece {
 
     public PlayingPiece(PieceType pt) { this.type = pt; }
 
-    public PieceType getPlayingPiece() { return type; }
+    public PieceType getPlayingPieceType() { return type; }
 };
