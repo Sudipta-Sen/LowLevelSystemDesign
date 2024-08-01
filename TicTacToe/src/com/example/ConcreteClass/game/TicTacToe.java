@@ -53,7 +53,7 @@ public class TicTacToe{
 
             //Check free space availibility
             if(gameBoard.getNumberOfFreePositions()==0) {
-                noWinner = true;
+                noWinner = false;
                 continue;
             }
 
